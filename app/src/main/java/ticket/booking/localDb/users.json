@@ -1,0 +1,26 @@
+[ {
+  "user_id" : "05141a9a-ef8c-41a3-bc8f-f7ce4214beeb",
+  "name" : "johndoe",
+  "password" : "johndoe",
+  "hashed_password" : "$2a$10$UHuUnUrU4.rFd447M9spwu.Xg0T4F5zyZN4h77zGc3AqcZRC5DS0S",
+  "tickets_booked" : [ {
+    "ticket_id" : "53c5471e-ed82-41c7-943e-7c7eef599b73",
+    "user_id" : "05141a9a-ef8c-41a3-bc8f-f7ce4214beeb",
+    "source" : "bangalore",
+    "destination" : "delhi",
+    "date_of_travel" : "2025-05-10T16:40:00Z",
+    "train" : {
+      "train_id" : "bacd",
+      "train_no" : 12949,
+      "seats" : [ [ 0, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ] ],
+      "station_times" : {
+        "bangalore" : "16:50:00",
+        "jaipur" : "16:50:00",
+        "delhi" : "16:50:00"
+      },
+      "stations" : [ "bangalore", "jaipur", "delhi" ],
+      "train_info" : null
+    },
+    "ticket_info" : "53c5471e-ed82-41c7-943e-7c7eef599b73$05141a9a-ef8c-41a3-bc8f-f7ce4214beeb$bangalore$delhi$2025-05-10T16:40:00Z$12949"
+  } ]
+} ]
